@@ -1,8 +1,9 @@
-# gridgain-oauth2-authenticator
+# GridGain OAuth2.0 Authenticator Example
 
 
-Example of gridgain's config:
+Example of GridGain's config:
 
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
@@ -57,3 +58,4 @@ Example of gridgain's config:
         </property>
     </bean>
 </beans>
+```
