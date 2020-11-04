@@ -1,5 +1,28 @@
 # GridGain OAuth2.0 Authenticator Example
 
+If you want to use GridGain Control Center and GridGain security cluster in 
+Single Sign-On manner with Google, you have to do few steps:
+
+1. Register OpenID Connect application in Google development console.
+2. Setup Control Center config.
+3. Put `jar` of this project to GridGain libs.
+4. Setup GridGain cluster config.
+
+After that you will be able to login in Control Center with Google and use 
+Google's access token to interact with a secured cluster. 
+
+Authenticator in this project doesn't support roles restriction. 
+It only checks if token is valid. 
+
+Example of Control Center's config:
+
+```yaml
+spring.security.oauth2.client:
+  registration:
+    google:
+      client-id: <client id from Google development console>
+      client-secret: <client secret
+```
 
 Example of GridGain's config:
 
