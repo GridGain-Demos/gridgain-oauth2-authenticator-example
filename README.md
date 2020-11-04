@@ -1,7 +1,10 @@
 # GridGain OAuth2.0 Authenticator Example
 
-If you want to use GridGain Control Center and GridGain secured cluster in 
-Single Sign-On manner with Google, you have to do few steps:
+This project contains the custom Authenticator for GridGain secured cluster that allows
+ using GridGain Control Center and GridGain secured cluster in Single Sign-On manner 
+ with Google. 
+  
+Follow these steps to set up an environment:
 
 1. Register OpenID Connect application in Google development console.
 2. Setup Control Center config.
