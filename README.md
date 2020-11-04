@@ -14,7 +14,7 @@ Follow these steps to set up an environment:
 After that you will be able to login in Control Center with Google and use 
 Google's access token to interact with a secured cluster. 
 
-Authenticator in this project doesn't support roles restriction. 
+Authenticator in this project doesn't support role restrictions. 
 It only checks if the token is valid. 
 
 Example of Control Center's `application.yml` config:
