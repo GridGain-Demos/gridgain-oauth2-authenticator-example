@@ -5,14 +5,14 @@ Single Sign-On manner with Google, you have to do few steps:
 
 1. Register OpenID Connect application in Google development console.
 2. Setup Control Center config.
-3. Put `jar` of this project to GridGain libs.
-4. Setup GridGain cluster config.
+3. Put `jar` of this project to GridGain libs folder.
+4. Setup GridGain secured cluster config.
 
 After that you will be able to login in Control Center with Google and use 
 Google's access token to interact with a secured cluster. 
 
 Authenticator in this project doesn't support roles restriction. 
-It only checks if token is valid. 
+It only checks if the token is valid. 
 
 Example of Control Center's `application.yml` config:
 
