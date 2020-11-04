@@ -14,7 +14,7 @@ Google's access token to interact with a secured cluster.
 Authenticator in this project doesn't support roles restriction. 
 It only checks if token is valid. 
 
-Example of Control Center's config:
+Example of Control Center's `application.yml` config:
 
 ```yaml
 spring.security.oauth2.client:
